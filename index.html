@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5ebdf43e95.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Debit card form</title>
+</head>
+<body>
+    <div class="parent-container">
+        <div class="child-container">
+             <div class="row">
+                <div class="column one">
+                    <h3 class="debit">Debit Card</h3>
+                     <div class="grand-child">
+                        <img src="chip.jpg" alt="Atm-chip">
+                        <i   id="wifi" class="fa fa-rss" aria-hidden="true"></i>
+                     </div>
+                     <p class="serial"> <strong>4444 xxxx xxxx 3567</strong> </p>
+                     <p class="date-expiry"> <small>vaild YY/MM   <br>Till</small></p>
+                     <div class="card-logo">
+                         <h4>Bright Ogbonna</h4>
+                         <img class="master-logo" src="Mastercard_logo.jpg" alt="card-logo" class="master-logo">
+                     </div>
+                </div>
+                <div class="column two">
+                     <h2>Card Details</h2>
+                     <div class="card-name">
+                          <form action="">
+                            <i class="fa fa-user-o" aria-hidden="true"> </i>
+                           <label class="cname" for="cname">Card holder name</label>
+                            <input type="text" id="cname" name="cname" placeholder="Techeduu">
+
+                            <i class="fa fa-credit-card" aria-hidden="true"></i>
+                            <label class="cnumber" for="cnumber">Card number</label>
+                            <input type="number" name="cnumber" id="cnumber" placeholder="4444 **** **** 3456">
+                            
+             
+
+                            <table>
+                                <tr>
+                                    <td>  <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                        <label for="expaire">Expairy</label> </td>
+                                    <td> <i class="fa fa-lock" aria-hidden="true"></i>
+                                        <label for="cvv">CVV</label> </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="date" name="expaire" id="expaire"></td>
+                                    <td><input type="password" id="cvv" name="cvv" min="3" placeholder="xxx"></td>
+                                </tr>
+                            </table>
+
+                            <input type="submit" value="Proceed Payment">
+                            
+                         </form>
+                       
+                     </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
